@@ -1,0 +1,98 @@
+.header {
+    background-image: url('../../img/Union.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    height: 104vh;
+
+    &__top {
+       display: flex;
+       justify-content: space-around;
+        
+    }
+    &__logo {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    &__menu {
+       
+        &-list {
+            padding-top: 2.5rem;
+            display: flex;
+
+        }
+        
+
+        &-link {
+            
+            color: #030e30;
+            font-size: 2.4rem;
+            margin-right: 4rem;
+
+            &:hover {
+                border-bottom: 1px solid #030e30;
+            }
+
+        }
+    }
+
+    &__hero {
+        display: flex;
+        padding-bottom: 4rem;
+        &-img {
+            width: 68.14rem;
+            height: 69.1rem;
+        }
+
+        &-wrap {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            margin-left: -12.5rem;
+           
+        }
+
+        &-heading {
+            font-size: 7rem;
+            margin-bottom: 5.4rem;
+        }
+
+        &-text {
+            font-size: 2.4rem;
+            margin-bottom: 9.2rem;
+        }
+
+        &-btn {
+            width: 30.6rem;
+            height: 7.8rem;
+            padding: 1.7rem 2rem;
+            font-size: 3.6rem;
+        }
+
+
+    }
+
+    &__contacts {
+        display: flex;
+        justify-content: space-around;
+        &-wrap {
+            display: flex;
+        }
+
+        &-icon {
+            margin-right: 1.8rem;
+        }
+
+        &-text {
+            font-size: 2.2rem;
+            margin-right: 6.3rem;
+        }
+    }
+}
+
+.icon {
+    width: 3.2rem;
+    height: 3.2rem;
+}

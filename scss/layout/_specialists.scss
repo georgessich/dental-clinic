@@ -1,0 +1,38 @@
+.specialists {
+
+    &__grid {
+        margin-top: 14.9rem;
+    }
+
+    &__card {
+        display: grid;
+        grid-template-columns: repeat(2, min-content);
+        max-width: 76.5rem;
+
+        &--2 {
+            transform: translateY(-50%) translateX(95%);
+        }
+
+        &--3 {
+            transform: translateY(-45%) translateX(8%);
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            padding-top: 7rem;
+        }
+
+        &-text {
+            
+            font-size: 2.4rem;
+            width: 32rem;
+        }
+
+        &-img {
+            width: 31.2rem;
+            height: 32.8rem;
+            margin-right: 2rem;
+        }
+    }
+}

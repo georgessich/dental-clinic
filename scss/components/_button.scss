@@ -1,0 +1,10 @@
+.btn {
+    background-color: $color-services;
+    color: #ffffff;
+    border:none;
+    border-radius: 5px;
+    &:hover {
+        cursor: pointer;
+        opacity: .75;
+    }
+}

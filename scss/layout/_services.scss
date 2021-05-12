@@ -1,0 +1,49 @@
+.services {
+    margin-bottom: 19rem;
+    &__prosthetics {
+        display: flex;
+        padding-top: 4.4rem;
+        margin-bottom: 5.2rem;
+        &-img {
+            z-index: -1;
+        }
+    
+        &-heading {
+            color: #EEF4F6;
+            font-family: $font-heading;
+            font-size: 4rem;
+            background-color: $color-services;
+            padding: 3rem 8rem;
+        }
+
+        &-text {
+            font-size: 1.8rem;
+            width: 68.7rem;
+            padding-left: 8rem;
+            padding-top: 2.4rem;
+
+        }
+
+        &-btn {
+            margin-top: 4.8rem;
+            font-size: 2.37rem;
+            padding: 1.12rem 1.34rem;
+            margin-left: 8rem;
+        }
+    }
+
+    &__section {
+        display: flex;
+        align-items: center;
+        margin-bottom: 2.8rem;
+        &-text {
+            font-family: $font-heading;
+            font-size: 4rem;
+            color: $color-services;
+            border-top: 1px solid $color-services;
+            border-bottom: 1px solid $color-services;
+            width: 100vw;
+            padding: 2.7rem 8rem;
+        }
+    }
+}

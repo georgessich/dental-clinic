@@ -1,0 +1,27 @@
+.about {
+
+    margin-bottom: 18rem;
+    &__wrap {
+        padding-top: 3rem;
+        padding-bottom: 4.2rem;
+        display: flex;
+
+        &-numbers {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 7.3rem;
+            grid-row-gap: 5rem;
+            margin-left: 6.1rem;
+        }
+
+        &-text {
+            font-family: $font-heading;
+            font-size: 2.4rem;
+        }
+    }
+
+    &__info {
+        font-size: 1.8rem;
+        width: 100.4rem;
+    }
+}

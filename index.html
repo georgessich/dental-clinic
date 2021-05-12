@@ -8,8 +8,283 @@
       href="https://fonts.googleapis.com/css2?family=Alice&family=Open+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Dental clinic</title>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+
+    <title>Первая стоматология</title>
     <link rel="stylesheet" href="css/style.min.css" />
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <img src="img/logo.png" alt="logo" class="header__logo" />
+          <nav class="header__menu">
+            <ul class="header__menu-list">
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">О компании</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Услуги</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Врачи</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Отзывы</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Цены</a>
+              </li>
+              <li class="header__menu-item">
+                <a href="#" class="header__menu-link">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="header__hero">
+          <img
+            src="img/Девушка с главной.png"
+            alt="Девушка"
+            class="header__hero-img"
+          />
+          <div class="header__hero-wrap">
+            <h1 class="header__hero-heading heading">
+              Сохраним красоту ваших зубов
+            </h1>
+            <p class="header__hero-text">
+              Мы сделаем все возможное чтобы сохранить красоту ваших зубов без
+              удаления
+            </p>
+            <button class="header__hero-btn btn">Записаться</button>
+          </div>
+        </div>
+        <div class="header__contacts">
+          <div class="header__contacts-wrap">
+            <svg class="header__contacts-icon icon">
+              <use xlink:href="img/sprite.svg#icon-map-marker"></use>
+            </svg>
+            <p class="header__contacts-text">г. Москва, ул.Дыбенко, 18 к1</p>
+            <svg class="header__contacts-icon icon">
+              <use xlink:href="img/sprite.svg#icon-phone"></use>
+            </svg>
+            <a href="tel:79993400383" class="header__contacts-text"
+              >+7999 340 03 83</a
+            >
+          </div>
+          <svg class="header__contacts-icon icon">
+            <use xlink:href="img/sprite.svg#icon-whatsapp"></use>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <section class="about">
+      <div class="container">
+        <h3 class="heading-sub">О клинике</h3>
+        <div class="about__wrap">
+          <img src="img/image 54.png" alt="Клиника" class="about__wrap-img" />
+          <div class="about__wrap-numbers">
+            <div class="about__wrap-cell">
+              <h4 class="about__wrap-heading heading-sub">1 815</h4>
+              <p class="about__wrap-text">вылеченных пульпитов</p>
+            </div>
+            <div class="about__wrap-cell">
+              <h4 class="about__wrap-heading heading-sub">1 057</h4>
+              <p class="about__wrap-text">установлено имплантов</p>
+            </div>
+            <div class="about__wrap-cell">
+              <h4 class="about__wrap-heading heading-sub">853</h4>
+              <p class="about__wrap-text">зафиксированных коронок</p>
+            </div>
+            <div class="about__wrap-cell">
+              <h4 class="about__wrap-heading heading-sub">1 066</h4>
+              <p class="about__wrap-text">вылеченных случаев кариеса</p>
+            </div>
+            <div class="about__wrap-cell">
+              <h4 class="about__wrap-heading heading-sub">1 953</h4>
+              <p class="about__wrap-text">
+                восстановленных зубов после передонтита
+              </p>
+            </div>
+          </div>
+        </div>
+        <p class="about__info">
+          Недалеко от остановки общественного транспорта «Дыбенко д. 18 к 1»
+          располагается «Первая стоматология». Здесь пациентам окажут
+          качественную и квалифицированную медицинскую помощь. Спектр
+          оказываемых услуг включает в себя удаление и лечение зубов, установку
+          брекетов, протезирование разных видов.
+        </p>
+      </div>
+    </section>
+    <section class="services">
+      <div class="container">
+        <h3 class="heading-sub">Услуги</h3>
+        <div class="services__prosthetics">
+          <img
+            class="services__prosthetics-img"
+            src="img/image 37.png"
+            alt="Протезирование"
+          />
+          <div class="services__prosthetics-card">
+            <h4 class="services__prosthetics-heading">Протезирование</h4>
+            <p class="services__prosthetics-text">
+              Протезирование — замена утраченных или необратимо повреждённых
+              частей тела искусственными заменителями — протезами.
+              Протезирование представляет собой важный этап процесса
+              социально-трудовой реабилитации человека, утратившего конечности,
+              или страдающего заболеваниями опорно-двигательного аппарата.
+            </p>
+            <button class="services__prosthetics-btn btn">Записаться</button>
+          </div>
+        </div>
+
+        <div class="services__sections">
+          <div class="services__section">
+            <img
+              src="img/image 39.png"
+              alt="Хирургия"
+              class="services__section-img"
+            />
+            <p class="services__section-text">Хирургия</p>
+          </div>
+          <div class="services__section">
+            <img
+              src="img/image 40.png"
+              alt="Лечение зубов"
+              class="services__section-img"
+            />
+            <p class="services__section-text">Лечение зубов</p>
+          </div>
+          <div class="services__section">
+            <img
+              src="img/image 38.png"
+              alt="Терапия"
+              class="services__section-img"
+            />
+            <p class="services__section-text">Терапия</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="advantages">
+      <div class="container">
+        <h3 class="heading-sub">Наши преимущества</h3>
+        <div class="advantages__grid">
+          <div class="advantages__grid-card">
+            <div class="advantages__grid-heading">Центр имплантации</div>
+            <p class="advantages__grid-text">Протезирование любой сложности</p>
+          </div>
+          <div class="advantages__grid-card">
+            <div class="advantages__grid-heading">Европейское оборудование</div>
+            <p class="advantages__grid-text">
+              Работаем на проверенном современном оборудовании
+            </p>
+          </div>
+          <div class="advantages__grid-card">
+            <div class="advantages__grid-heading">
+              Лаборатория - партнер E-max
+            </div>
+            <p class="advantages__grid-text">
+              Постоянный член международной выставки IDS в Кёльне
+            </p>
+          </div>
+          <div class="advantages__grid-card">
+            <div class="advantages__grid-heading">Опытные врачи</div>
+            <p class="advantages__grid-text">
+              Участники международных конференций
+            </p>
+          </div>
+          <div class="advantages__grid-card">
+            <div class="advantages__grid-heading">15 лет Работы</div>
+            <p class="advantages__grid-text">
+              15 лет Успешного опыта в стоматологии
+            </p>
+          </div>
+          <div class="advantages__grid-card">
+            <div class="advantages__grid-heading">
+              Сертифицированные партнеры
+            </div>
+            <p class="advantages__grid-text">
+              Работаем с самыми надежными и известными производителями имплантов
+              и протезов
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="specialists">
+      <div class="container">
+        <h3 class="heading-sub">Наши специалисты</h3>
+        <div class="specialists__grid">
+          <div class="specialists__card specialists__card--1">
+            <img
+              src="img/image 42.png"
+              alt="Стоматолог"
+              class="specialists__card-img"
+            />
+            <div class="specialists__card-info">
+              <p class="specialists__card-text">Михеева Оксана Ивановна</p>
+              <p class="specialists__card-text">
+                Директор, Врач стоматолог-терапевт
+              </p>
+              <p class="specialists__card-text">Стаж - 11 лет</p>
+            </div>
+          </div>
+          <div class="specialists__card specialists__card--2">
+            <img
+              src="img/image 43.png"
+              alt="Стоматолог"
+              class="specialists__card-img"
+            />
+            <div class="specialists__card-info">
+              <p class="specialists__card-text">Нежинский Олег Вячеславович</p>
+              <p class="specialists__card-text">
+                Врач стоматолог-ортопед, хирург
+              </p>
+              <p class="specialists__card-text">Стаж - 8 лет</p>
+            </div>
+          </div>
+          <div class="specialists__card specialists__card--3">
+            <img
+              src="img/image 44.png"
+              alt="Стоматолог"
+              class="specialists__card-img"
+            />
+            <div class="specialists__card-info">
+              <p class="specialists__card-text">Ляпко Владислав Витальевич</p>
+              <p class="specialists__card-text">Врач стоматолог-ортопед</p>
+              <p class="specialists__card-text">Стаж - 11 лет</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="blog">
+      <div class="container">
+        <h3 class="heading-sub">Блог</h3>
+        <div class="blog__links">
+          <div class="blog__link">
+            <a href="#" class="blog__link-img"><img src="img/image 46.png" alt="Микроскоп"></a>
+            <a href="#" class="blog__link-heading">Новый микроскоп Leica M320 создан для стоматолога</a>
+          </div>
+          <div class="blog__link">
+            <a href="#" class="blog__link-img"><img src="img/image 48.png" alt="Диагностика десён"></a>
+            <a href="#" class="blog__link-heading">Компьютерная диагностика десен – несомненные достоинства</a>
+          </div>
+          <div class="blog__link">
+            <a href="#" class="blog__link-img"><img src="img/image 47.png" alt="Ребенок"></a>
+            <a href="#" class="blog__link-heading">Детская зубная паста: почему так дорого?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="reviews">
+      <div class="container">
+        <h3 class="heading-sub">
+          Отзывы
+        </h3>
+      </div>
+    </section>
+  </body>
 </html>
