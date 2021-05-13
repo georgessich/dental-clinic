@@ -1,0 +1,86 @@
+.footer {
+    background-color: $color-display;
+    color: #ffffff;
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__map {
+        padding-top: 2.7rem;
+        margin-right: 29rem;
+        &-yandex {
+            margin-bottom: 2.5rem;
+        }
+        
+
+        &-schedule {
+            font-size: 2.4rem;
+            font-weight: 700;
+            margin-bottom: 2.5rem;
+        }
+
+        &-address {
+            font-size: 1.8rem;
+            font-weight: 600;
+            width: 35.5rem;
+            margin-bottom: 7rem;
+        }
+
+        &-tel {
+            font-size: 2.5rem;
+            font-weight: 500;
+            margin-right: 2.7rem;
+        }
+    }
+
+    &__form {
+        padding-top: 9.3rem;
+        display: flex;
+        flex-direction: column;
+
+        &-label {
+            font-size: 3rem;
+            font-weight: 400;
+            margin-bottom: 7.5rem;
+        }
+
+        &-input {
+            background-color: inherit;
+            border:none;
+            border-bottom: 1px solid #eef4f6;
+            font-size: 3rem;
+            color: #eef4f6;
+            padding-bottom: .5rem;
+            outline: none;
+            margin-bottom: 6.5rem;
+
+            &:focus:invalid{
+                border-bottom: 1px solid #cf2929;
+                transition: border-bottom .4s;
+            }
+        }
+
+        &-btn {
+            font-size: 3.6rem;
+            padding: 1.7rem 2rem;
+            align-self: start;
+            margin-bottom: 13.8rem;
+        }
+    }
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(2, max-content);
+        grid-column-gap: 11.5rem;
+        grid-row-gap: 3.4rem;
+
+        &-link {
+            font-size: 2.4rem;
+
+            &:hover {
+                border-bottom: 1px solid #ffffff;
+            }
+        }
+    }
+}
