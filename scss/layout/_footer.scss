@@ -1,6 +1,6 @@
 .footer {
     background-color: $color-display;
-    position: relative;
+    
     color: #ffffff;
 
     &__wrap {
@@ -12,6 +12,8 @@
         margin-right: 29rem;
         &-yandex {
             margin-bottom: 2.5rem;
+            width: 52.7rem;
+            height: 47rem;
         }
         
 
