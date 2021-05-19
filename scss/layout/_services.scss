@@ -45,6 +45,11 @@
             border-bottom: 1px solid $color-services;
             width: 100vw;
             padding: 2.7rem 8rem;
+
+            @media (max-width: 102rem){
+                height: 12rem;
+                align-self: center;
+            }
         }
     }
 }

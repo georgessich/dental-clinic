@@ -5,10 +5,18 @@
     background-position: bottom;
     display: block;
     height: 104vh;
+    
+
+
+    @media(max-width: 1020px) {
+        width: 120vw;
+        height: 96vh;
+    }
 
     &__top {
        display: flex;
        justify-content: space-around;
+
         
     }
     &__logo {
@@ -17,6 +25,10 @@
     }
 
     &__menu {
+
+        @media (max-width: 900px) {
+            display: none;
+        }
        
         &-list {
             padding-top: 2.5rem;
@@ -35,6 +47,11 @@
                 border-bottom: 1px solid #030e30;
             }
 
+            @media (max-width: 1020px) {
+                font-size: 1.8rem;
+                margin-right: 3rem;
+            }
+
         }
     }
 
@@ -44,6 +61,11 @@
         &-img {
             width: 68.14rem;
             height: 69.1rem;
+
+            @media (max-width: 1020px) {
+                width: 60.14rem;
+                height: 61.1rem;
+            }
         }
 
         &-wrap {
@@ -63,6 +85,10 @@
         &-text {
             font-size: 2.4rem;
             margin-bottom: 9.2rem;
+            @media (max-width: 1020px) {
+                font-size: 2.2rem;
+                width: 57rem;
+            }
         }
 
         &-btn {

@@ -7,12 +7,7 @@
         padding-bottom: 4.2rem;
         display: flex;
 
-        &-img {
-            animation: fadein 2s;
-        }
-
         &-numbers {
-            animation: fadein 4s;
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-column-gap: 7.3rem;
